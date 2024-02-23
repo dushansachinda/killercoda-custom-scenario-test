@@ -1,0 +1,37 @@
+{
+    "title": "Health Care Integration Solutio",
+    "description": "Health Care Integration Solutio",
+    "difficulty": "Intermediate",
+    "time": "20 hour",
+    "details": {
+      "intro":{
+        "text" : "intro/intro.md",
+        "foreground": "intro/foreground.sh",
+        "background": "intro/background.sh"
+      },
+      "steps": [
+        {
+          "title": "Setup APIM, MI and Backend Services",
+          "text": "step1/step1.md"
+        },{
+          "title": "Startup and Access Services",
+          "text": "step2/step2.md"
+        }
+      ],
+      "finish": {
+        "text": "finish.md"
+      },
+      "assets": {
+        "host01": [
+         {"file": "original-apim-deployment.toml", "target": "~/", "chmod": "+w"}
+        ]
+      }
+    },
+    "environment": {
+      "hideintro": true,
+      "uilayout": "terminal"
+    },
+    "backend": {
+      "imageid": "ubuntu-4GB"
+    }
+  }
