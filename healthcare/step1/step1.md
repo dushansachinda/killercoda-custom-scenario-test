@@ -6,7 +6,7 @@ Download the WSO2 API Manager
 
 - Use the following command to download the WSO2 API Manager binary file.
 
-  `wget -O wso2am-4.2.0.zip https://github.com/dushansachinda/killercoda-custom-scenario-test/resources/raw/main/binaries/apim/wso2am-4.2.0.zip?download=true`{{execute}}
+  `wget -O wso2am-4.2.0.zip https://github.com/dushansachinda/resources/raw/main/apim/wso2am-4.2.0.zip?download=true`{{execute}}
 
 - Create a directory for the API Manager installation
 
@@ -21,7 +21,7 @@ Download the WSO2 API Manager
 
 - Use the following command to download the WSO2 Micro Integrator binary file.
 
-  `wget -O wso2mi-4.2.0 https://github.com/dushansachinda/killercoda-custom-scenario-test/resources/raw/main/binaries/mi/wso2mi-4.2.0.zip?download=true`{{execute}}
+  `wget -O wso2mi-4.2.0 https://github.com/dushansachinda/resources/raw/main/mi/wso2mi-4.2.0.zip?download=true`{{execute}}
 
 - Create a directory for the MI installation
 
