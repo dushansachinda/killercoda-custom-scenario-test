@@ -9,16 +9,11 @@ Open MI deloyment toml file and update service catelog.
     password = "admin"
     ```{{}}
 
-- Start the first MI instance
-
-  `sh mi/wso2mi-4.2.0/bin/micro-integrator.sh start`{{execute}}
-
 - Set backend enviorment variable
    `export GRAND_OAK_ENDPOINT=http://localhost:9090/grandOaks/doctors/`{{execute}}
 
 
    `export PINE_VALLEY_ENDPOINT=http://localhost:8080/pineValley/doctors`{{execute}}
-
 
 
 - Start APIM 

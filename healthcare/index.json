@@ -11,6 +11,10 @@
       },
       "steps": [
         {
+          "title": "Setup Nginx and SSL",
+          "text": "step0/step0.md"
+        },
+        {
           "title": "Setup APIM, MI and Backend Services",
           "text": "step1/step1.md"
         },{
