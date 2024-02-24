@@ -34,7 +34,7 @@ Open MI deloyment toml file and update service catelog.
     ```{{}}
 
 - Set backend enviorment variable
-   `export GRAND_OAK_ENDPOINT=http://localhost:9090/grandOaks/doctors/`{{execute}}
+   `export GRAND_OAK_ENDPOINT=http://localhost:9090/grandOaks/doctors`{{execute}}
 
 
    `export PINE_VALLEY_ENDPOINT=http://localhost:8083/pineValley/doctors`{{execute}}
