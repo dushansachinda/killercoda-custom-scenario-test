@@ -23,7 +23,11 @@
       },
       "assets": {
         "host01": [
-         {"file": "original-apim-deployment.toml", "target": "~/", "chmod": "+w"}
+         {"file": "original-apim-deployment.toml", "target": "~/", "chmod": "+w"},
+         {"file": "original-mi-deployment.toml", "target": "~/", "chmod": "+w"},
+         {"file": "GrandOAKServices-0.0.1-SNAPSHOT.jar", "target": "~/", "chmod": "+w"},
+         {"file": "PineValleyServices-0.0.1-SNAPSHOT.jar", "target": "~/", "chmod": "+w"},
+         {"file": "Hospital-IntCompositeExporter_1.0.0-SNAPSHOT.car", "target": "~/", "chmod": "+w"}
         ]
       }
     },
