@@ -15,6 +15,8 @@ Open MI deloyment toml file and update service catelog.
 
 - Set backend enviorment variable
    `export GRAND_OAK_ENDPOINT=http://localhost:9090/grandOaks/doctors/`{{execute}}
+
+   
    `export PINE_VALLEY_ENDPOINT=http://localhost:8080/pineValley/doctors`{{execute}}
 
 - Start MI 
@@ -46,6 +48,7 @@ Prese Ctrl+C to exit from the logs
 - Stop  APIM  / MI instance
 
   `sh apim/wso2am-4.2.0/bin/api-manager.sh stop`{{execute}}
+
   `sh mi/wso2mi-4.2.0/bin/micro-integrator.sh stop`{{execute}}
 
 TODO
