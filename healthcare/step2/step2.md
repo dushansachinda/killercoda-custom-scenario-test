@@ -33,6 +33,9 @@ Open MI deloyment toml file and update service catelog.
     password = "admin"
     ```{{}}
 
+> **_NOTE:_** Above configration will enable MI APIs or services to be discoverd at APIM.
+
+
 - Set backend enviorment variable
    `export GRAND_OAK_ENDPOINT=http://localhost:9090/grandOaks/doctors`{{execute}}
 
@@ -49,6 +52,8 @@ Open MI deloyment toml file and update service catelog.
 
   `tail -f apim/wso2am-4.2.0/repository/logs/wso2carbon.log`{{execute}}
 Prese Ctrl+C to exit from the logs
+
+> **_NOTE:_** Please wait until the API Manager has started completely before starting the MI server.
 
 #### MI Startup 
 
@@ -73,6 +78,9 @@ Prese Ctrl+C to exit from the logs
   `sh apim/wso2am-4.2.0/bin/api-manager.sh stop`{{execute}}
 
   `sh mi/wso2mi-4.2.0/bin/micro-integrator.sh stop`{{execute}}
+
+
+> **_NOTE:_** Following only tests API internally. Follow API publisher lifeccyle and the document related API subscription for more information.
 
 #### APIM Discover HealthCareAPI
 - Discover API
