@@ -37,7 +37,7 @@ Open MI deloyment toml file and update service catelog.
    `export GRAND_OAK_ENDPOINT=http://localhost:9090/grandOaks/doctors/`{{execute}}
 
 
-   `export PINE_VALLEY_ENDPOINT=http://localhost:8085/pineValley/doctors`{{execute}}
+   `export PINE_VALLEY_ENDPOINT=http://localhost:8083/pineValley/doctors`{{execute}}
 
 
 #### APIM Startup 
