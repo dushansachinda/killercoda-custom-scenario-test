@@ -1,5 +1,5 @@
 Open MI deloyment toml file and update service catelog.
- `vi mi/wso2mi-4.2.0/repository/conf/deployment.toml`{{execute}}
+ `vi mi/wso2mi-4.2.0/conf/deployment.toml`{{execute}}
  
     ```
     [[service_catalog]]
@@ -17,15 +17,21 @@ Open MI deloyment toml file and update service catelog.
    `export GRAND_OAK_ENDPOINT=http://localhost:9090/grandOaks/doctors/`{{execute}}
    `export PINE_VALLEY_ENDPOINT=http://localhost:8080/pineValley/doctors`{{execute}}
 
-- Check the logs
+- Start MI 
 
   `sh mi/wso2mi-4.2.0/bin/micro-integrator.sh start`{{execute}}
 
-- Start the first APIM instance
+- Start APIM 
 
-  `tail -f apim/wso2mi-4.2.0/repository/logs/wso2carbon.log`{{execute}}
+  `sh apim/wso2am-4.2.0/bin/api-manager.sh start`{{execute}}
 
-- Check the logs
+- Check the MI logs
+
+  `tail -f mi/wso2mi-4.2.0/repository/logs/wso2carbon.log`{{execute}}
+
+Prese Ctrl+C to exit from the logs
+
+- Check the APIM logs
 
   `tail -f apim/wso2am-4.2.0/repository/logs/wso2carbon.log`{{execute}}
 
@@ -37,8 +43,9 @@ Open MI deloyment toml file and update service catelog.
 
   {{TRAFFIC_HOST1_80}}/devportal
 
-- Stop the first APIM instance
+- Stop  APIM  / MI instance
 
   `sh apim/wso2am-4.2.0/bin/api-manager.sh stop`{{execute}}
+  `sh mi/wso2mi-4.2.0/bin/micro-integrator.sh stop`{{execute}}
 
-  Make sure the first instance is stoped by checking the logs again
+TODO
