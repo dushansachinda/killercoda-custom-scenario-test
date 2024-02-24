@@ -1,3 +1,5 @@
+#### APIM -
+
 Open MI deloyment toml file and update service catelog.
   - Open the APIM configuration file
 
@@ -18,8 +20,9 @@ Open MI deloyment toml file and update service catelog.
     ```{{copy}}
 
  
+ #### MI
  - Add Service Catelog connection
- 
+
  `vi mi/wso2mi-4.2.0/conf/deployment.toml`{{execute}}
  
     ```
@@ -37,6 +40,7 @@ Open MI deloyment toml file and update service catelog.
    `export PINE_VALLEY_ENDPOINT=http://localhost:8080/pineValley/doctors`{{execute}}
 
 
+#### APIM Startup 
 - Start APIM 
 
   `sh apim/wso2am-4.2.0/bin/api-manager.sh start`{{execute}}
@@ -45,6 +49,8 @@ Open MI deloyment toml file and update service catelog.
 
   `tail -f apim/wso2am-4.2.0/repository/logs/wso2carbon.log`{{execute}}
 Prese Ctrl+C to exit from the logs
+
+#### MI Startup 
 
 - Start MI 
 
@@ -68,4 +74,4 @@ Prese Ctrl+C to exit from the logs
 
   `sh mi/wso2mi-4.2.0/bin/micro-integrator.sh stop`{{execute}}
 
-TODO
+TODOddd
