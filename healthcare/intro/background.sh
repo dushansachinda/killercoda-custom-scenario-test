@@ -1,6 +1,7 @@
 apt update
-apt install openjdk-11-jdk -y
-echo "export JAVA_HOME='/usr/lib/jvm/java-11-openjdk-amd64/'" >> /etc/profile && source /etc/profile
+#apt install openjdk-11-jdk -y
+apt install openjdk-17-jdk -y
+echo "export JAVA_HOME='/usr/lib/jvm/java-17-openjdk-amd64/'" >> /etc/profile && source /etc/profile
 
 sed 's/PORT/80/g' /etc/killercoda/host > /tmp/uihost
 sed -i 's|https://||g' /tmp/uihost

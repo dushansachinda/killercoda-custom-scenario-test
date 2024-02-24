@@ -52,7 +52,7 @@ Download the WSO2 API Manager
   `mkdir PineValleyBE`{{execute}}
 - Copy the back end jar to APIM
 
-    `cp PineValleyServices-0.0.1-SNAPSHOT.jar grandOAKBe/`{{execute}}
+    `cp PineValleyServices-0.0.1-SNAPSHOT.jar PineValleyBE/`{{execute}}
 
 - Run Grand OAK service
 
