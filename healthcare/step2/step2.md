@@ -3,7 +3,7 @@
 Open MI deloyment toml file and update service catelog.
   - Open the APIM configuration file
 
-    `vi apim1/wso2am-4.2.0/repository/conf/deployment.toml`{{execute}}
+    `vi apim/wso2am-4.2.0/repository/conf/deployment.toml`{{execute}}
 
   - Check the hostname under the server section. This is preconfigured to match with this playground. In the other environments, you should update the hostname accordingly
 
@@ -37,7 +37,7 @@ Open MI deloyment toml file and update service catelog.
    `export GRAND_OAK_ENDPOINT=http://localhost:9090/grandOaks/doctors/`{{execute}}
 
 
-   `export PINE_VALLEY_ENDPOINT=http://localhost:8080/pineValley/doctors`{{execute}}
+   `export PINE_VALLEY_ENDPOINT=http://localhost:8085/pineValley/doctors`{{execute}}
 
 
 #### APIM Startup 
