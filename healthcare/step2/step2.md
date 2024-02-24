@@ -1,4 +1,25 @@
 Open MI deloyment toml file and update service catelog.
+  - Open the APIM configuration file
+
+    `vi apim1/wso2am-4.2.0/repository/conf/deployment.toml`{{execute}}
+
+  - Check the hostname under the server section. This is preconfigured to match with this playground. In the other environments, you should update the hostname accordingly
+
+    ```
+    [server]
+    hostname="portal.ourcompany.com"
+    ```{{}}
+
+  - Add the proxy port configuration
+
+    ```
+    [transport.https.properties]
+    proxyPort=443
+    ```{{copy}}
+
+ 
+ - Add Service Catelog connection
+ 
  `vi mi/wso2mi-4.2.0/conf/deployment.toml`{{execute}}
  
     ```

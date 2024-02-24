@@ -5,6 +5,9 @@ base_path = "${carbon.protocol}://${carbon.host}:${carbon.management.port}"
 #discard_empty_caches = false
 server_role = "default"
 
+[transport.https.properties]
+proxyPort=443
+
 # Add Proxy port configuration here
 
 [super_admin]
