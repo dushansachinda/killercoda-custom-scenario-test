@@ -78,7 +78,7 @@ Prese Ctrl+C to exit from the logs
 - Discover API
 - Publish API
 - Internal testing API
-  curl -k -X 'GET' \
+   `curl -k -X 'GET' \
   'https://{{TRAFFIC_HOST1_8080}}/healthcare/1.0.0/doctor/Ophthalmologist' \
   -H 'accept: application/json'\
-  -H 'Internal-Key: <<replace API-token>>'
+  -H 'Internal-Key: <<replace API-token>>' `{{copy}}
